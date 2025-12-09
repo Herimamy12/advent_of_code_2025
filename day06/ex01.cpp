@@ -15,7 +15,6 @@ int main(int ac, char **av) {
     vector<vector<int>> tab;
 
 
-    /*                 RECUPERATION DE DONNEE                 */
     while (getline(fs, s)) {
         vector<int> one;
         stringstream    ts(s);
@@ -36,7 +35,6 @@ int main(int ac, char **av) {
     }
 
 
-    /*                 TRAITEMENT DE DONNEE                 */
     for (size_t i = 0; i < op.size(); i ++) {
         if (op[i] == '+') {
             double sumi = 0;
