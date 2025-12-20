@@ -17,6 +17,7 @@ bool	oppositeValid(vec2 src, vec2 dst, vector<vec2> vec) {
 	return false;
 }
 
+
 int	main(int ac, char **av) {
 	string	s;
 	fstream	fs(av[1]);
